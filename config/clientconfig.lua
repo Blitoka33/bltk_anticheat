@@ -22,7 +22,7 @@ ClientConfig.BlackListWeaponList = { -- Blacklisted Weapons
 	"WEAPON_FIREWORK",
 }
 ClientConfig.NoNPC = false -- Turn this on, if you have a NoNPC server. This function will delete ALL UNKNOWN ped.
-ClientConfig.TxdMenu = false -- This will detect some textured mod menu.
+ClientConfig.TxdMenu = true -- This will detect some textured mod menu.
 ClientConfig.AntiSuperJump = true -- Blocks superjump functions
 ClientConfig.ThermalVision = true -- This will detect thermal vision if the player is not in any helicopter.
 ClientConfig.NightVision = true -- This will detect night vision.
@@ -36,7 +36,7 @@ ClientConfig.Noclip = true -- AntiNoclip, this may not work correctly on some se
 ClientConfig.Teleport = true -- Blocks teleport/noclip methods, detects abnormal position changes
 ClientConfig.TeleportDistance = 50 -- Teleport distance, 50 is a good starting point
 ClientConfig.AntiWeaponDamageChanger = true -- AntiWeaponDamageModifier, please note that this can fuck up with some servers.
-ClientConfig.Styles = false -- I would recommend you to turn this on, this will catch a few mod menus.
+ClientConfig.Styles = true -- I would recommend you to turn this on, this will catch a few mod menus.
 ClientConfig.AntiVehicleCheats = false -- Blocks vehicle modifiers
 ClientConfig.AntiAFKBypass = true -- Detects if someone is trying to bypass Anti AFK systems.
 
